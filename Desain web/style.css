@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #b5e8a0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d6a4f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #5cbbae;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2d6a4f;
+    margin: 0 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.zoo-image {
+    width: 100%;
+    max-height: max-content;
+    object-fit: cover;
+    /* width: 100px;  
+    height: 100px;  */
+}
+
+.animal-list {
+    margin: 20px 0;
+}
+
+.animal {
+    background-color: #5cbbae;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 370px;
+}
+
+.footer {
+    background-color: #2d6a4f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
